@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://saidmukhamad.github.io/",
+  "homepage": "https://saidmukhamad.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.3",

@@ -21,12 +21,6 @@
 
   color: #65b6fc;
   text-align: center;
-
-  /* width: 500px;
-  height: 200px; */
-  /* text-align: center; */
-  /* align-self: center; */
-  /* background-color: wheat; */
 }
 
 .telegram {
@@ -42,7 +36,23 @@
 }
 
 @media (max-width: 700px) {
+  .App {
+    flex-direction: column;
+  }
   .me-108 {
     font-size: 34px;
+    padding: 0;
+    max-width: 290px;
+    width: 100%;
+  }
+
+  .contact-108 {
+    margin-top: 22px;
+    text-align: center;
+    max-width: 220px;
+  }
+  .telegram {
+    top: 16px;
+    left: 0px;
   }
 }
