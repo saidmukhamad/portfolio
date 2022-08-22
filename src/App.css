@@ -8,6 +8,8 @@ html {
   height: 100vh;
   width: 100%;
   background-color: #213c53;
+
+  font-size: 32px;
 }
 
 .App {
@@ -15,54 +17,46 @@ html {
   flex-direction: column;
 
   background-color: #213c53;
-  /* justify-content: center; */
-  align-items: center;
+  align-items: flex-start;
+}
+
+.present-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .me-108 {
   padding: 15px;
-  font-size: 45px;
+  box-sizing: border-box;
+  font-size: 4.5vw;
 
   color: #65b6fc;
-  text-align: center;
+}
+
+.contact-108 {
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.contact-108 p {
+  padding: 4px;
+}
+
+.what-i-did-container {
+  padding: 32px;
+}
+
+.what-i-did-container li {
+  margin-left: 46px;
+  padding: 12px;
 }
 
 .telegram {
   position: relative;
-  top: 18px;
-  left: -5px;
-}
-
-.contact-108 {
-  font-size: 22px;
 }
 
 @media (max-width: 700px) {
   .App {
     flex-direction: column;
   }
-  .me-108 {
-    font-size: 34px;
-    padding: 0;
-    max-width: 290px;
-    width: 100%;
-  }
-
-  .contact-108 {
-    margin-top: 22px;
-    text-align: center;
-    max-width: 220px;
-  }
-  .telegram {
-    top: 16px;
-    left: 0px;
-  }
-}
-
-#someselector {
-  all: initial;
-}
-
-#someselector * {
-  all: unset;
 }

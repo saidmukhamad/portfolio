@@ -1,0 +1,48 @@
+.ticker {
+  background-color: rgb(71, 107, 138);
+  height: 6vh;
+
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.ticker-container {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.ticker-child {
+  min-width: max-content;
+  width: max-content;
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 200px;
+  align-items: center;
+
+  animation-iteration-count: infinite;
+
+  animation-timing-function: linear;
+  animation-name: ticker;
+
+  animation-duration: 110s;
+  font-family: Ubuntu;
+  font-size: 2vh;
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateX(5%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
