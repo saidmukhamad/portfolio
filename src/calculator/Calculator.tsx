@@ -1,8 +1,5 @@
-import { Helmet } from "react-helmet";
 import { useEffect } from "react";
-import "./style.css";
-
-// import "./index.js";
+import "./Calculator.css";
 
 type Props = {};
 
@@ -121,7 +118,7 @@ function Calculator_({}: Props) {
                 calc.resetOperation();
 
                 break;
-              case "/":
+              case ":":
                 calc.divide(e.target.value);
                 calc.resetOperation();
 
@@ -143,7 +140,7 @@ function Calculator_({}: Props) {
   }, []);
 
   return (
-    <div>
+    <div className="calculator-page-container">
       <h1>calculator</h1>
       <div className="calculator">
         <div className="calculator-output-container">
@@ -195,7 +192,6 @@ function Calculator_({}: Props) {
           </ul>
         </div>
       </div>
-      <Helmet>{/* <script src="./index.js"></script> */}</Helmet>
     </div>
   );
 }

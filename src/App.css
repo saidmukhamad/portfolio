@@ -4,14 +4,18 @@
   color: #65b6fc;
 }
 
+html {
+  height: 100vh;
+  width: 100%;
+  background-color: #213c53;
+}
+
 .App {
   display: flex;
   flex-direction: column;
 
-  width: 100vw;
-  min-height: 100vh;
   background-color: #213c53;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 

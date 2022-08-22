@@ -20,7 +20,7 @@ function App() {
       <ul>
         <span>Just a joyful things that i made</span>
         <li>
-          <a href="http://wnd108.ru/"> Test for internet shop</a>
+          <a href="http://62.113.105.4/"> Test for internet shop</a>
           <p>P.S.running on development mode, loading will be slow :(</p>
         </li>
         <li>
