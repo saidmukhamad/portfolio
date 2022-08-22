@@ -14,17 +14,32 @@ function App() {
 
         <div className="contact-108">
           <p>
-            {" "}
-            if you want to contact with me, pls write{" "}
-            <a className="telegram" href="https://t.me/saidmukhamad">
-              here
+            pls take a look at my{" "}
+            <a target={"_blank"} href="https://disk.yandex.ru/i/u6stEqHgakz2-g">
+              cv
             </a>{" "}
+            , maybe i can help you
           </p>
           <p>
             {" "}
-            if you want my github, here's a{" "}
-            <a className="telegram" href="http://github.com/saidmukhamad/">
-              link
+            {/* if you want my github, here's a{" "} */}
+            <a
+              className="telegram"
+              target={"_blank"}
+              href="http://github.com/saidmukhamad/"
+            >
+              {/* link */}
+              github
+            </a>{" "}
+          </p>
+          <p>
+            <a
+              className="telegram"
+              target={"_blank"}
+              href="http://github.com/saidmukhamad/"
+            >
+              {/* link */}
+              contact me
             </a>{" "}
           </p>
         </div>
@@ -33,8 +48,11 @@ function App() {
       <ul className="what-i-did-container">
         <span>Just a joyful things that i made</span>
         <li>
-          <a href="http://62.113.105.4/"> Test for internet shop</a>
-          <p>P.S.running on development mode, loading will be slow :(</p>
+          <a target={"_blank"} href="http://62.113.105.4/">
+            {" "}
+            Test for internet shop
+          </a>
+          <p>P.S. running on development mode, loading will be slow :(</p>
         </li>
         {/* <li>
           <a href={"/calculator"}>Calculator</a>{" "}

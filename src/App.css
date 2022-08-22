@@ -2,12 +2,22 @@
   margin: 0;
   padding: 0;
   color: #65b6fc;
+  color: #d1d1f5;
 }
 
 html {
   height: 100vh;
   width: 100%;
-  background-color: #213c53;
+  /* background-color: #213c53; */
+  /* background: rgb(73, 121, 217); */
+  background: rgb(42, 44, 185);
+  background: linear-gradient(
+    90deg,
+    rgba(42, 44, 185, 1) 14%,
+    rgba(42, 44, 185, 1) 37%,
+    rgba(36, 36, 171, 1) 75%,
+    rgba(36, 33, 121, 1) 100%
+  );
 
   font-size: 32px;
 }
@@ -16,7 +26,18 @@ html {
   display: flex;
   flex-direction: column;
 
-  background-color: #213c53;
+  /* background-color: #213c53; */
+
+  background: rgb(73, 121, 217);
+  background: rgb(42, 44, 185);
+  background: linear-gradient(
+    90deg,
+    rgba(42, 44, 185, 1) 14%,
+    rgba(42, 44, 185, 1) 37%,
+    rgba(36, 36, 171, 1) 75%,
+    rgba(36, 33, 121, 1) 100%
+  );
+
   align-items: flex-start;
 }
 
@@ -31,6 +52,7 @@ html {
   font-size: 4.5vw;
 
   color: #65b6fc;
+  color: #d1d1f5;
 }
 
 .contact-108 {
