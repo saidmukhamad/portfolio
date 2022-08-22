@@ -125,7 +125,7 @@ const handleInput = (e) => {
   output.innerText = calc.total;
 };
 
-for (value of CalculatorOperations) {
+for (let value of CalculatorOperations) {
   let operation = document.getElementById(value.toString());
   console.log(operation);
   operation.addEventListener("click", handleInput);

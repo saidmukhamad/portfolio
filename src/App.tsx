@@ -1,6 +1,6 @@
 import "./App.css";
-import { ReactComponentElement } from "react";
 import Telegram from "./assets/Telegram";
+import { Link } from "react-router-dom";
 import { ReactComponent as _108 } from "./assets/108.svg";
 
 function App() {
@@ -10,14 +10,24 @@ function App() {
         SAIDMUKHAMAD's web page for tests and other things, welcome!
       </p>
 
-      {/* <_108 width={"120px"} /> */}
-
       <div className="contact-108">
         if you want to contact with me, pls write here
         <a className="telegram" href="https://t.me/saidmukhamad">
           <Telegram />
         </a>
       </div>
+
+      <ul>
+        <span>Just a joyful things that i made</span>
+        <li>
+          <a href="http://wnd108.ru/"> Test for internet shop</a>
+          <p>P.S.running on development mode, loading will be slow :(</p>
+        </li>
+        <li>
+          <a href={"/calculator"}>Calculator</a>{" "}
+          <p>Made it because i was tired one night </p>
+        </li>
+      </ul>
     </div>
   );
 }
