@@ -36,10 +36,10 @@ function App() {
           <a href="http://62.113.105.4/"> Test for internet shop</a>
           <p>P.S.running on development mode, loading will be slow :(</p>
         </li>
-        <li>
+        {/* <li>
           <a href={"/calculator"}>Calculator</a>{" "}
           <p>Made it because i was tired one night </p>
-        </li>
+        </li> */}
       </ul>
 
       <Ticker />
