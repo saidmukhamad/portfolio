@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <link rel="stylesheet" href="style.css" />
-  <script src="index.js"></script>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,32 +12,33 @@
       <h1>calculator</h1>
       <div class="calculator">
         <div class="calculator-output-container">
-          <div class="calculator-output-box">0</div>
+          <div id="output" class="calculator-output-box">0</div>
         </div>
         <div class="calculator-input">
           <ul class="calculator-numbers">
-            <li>7</li>
-            <li>8</li>
-            <li>9</li>
-            <li>4</li>
-            <li>5</li>
-            <li>6</li>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>0</li>
+            <li id="7" value="7">7</li>
+            <li id="8" value="8">8</li>
+            <li id="9" value="9">9</li>
+            <li id="4" value="4">4</li>
+            <li id="5" value="5">5</li>
+            <li id="6" value="6">6</li>
+            <li id="1" value="1">1</li>
+            <li id="2" value="2">2</li>
+            <li id="3" value="3">3</li>
+            <li id="0" value="0">0</li>
             <li>.</li>
             <li>=</li>
           </ul>
           <ul class="calculator-operations">
-            <li>AC</li>
-            <li>:</li>
-            <li>*</li>
-            <li>+</li>
-            <li>-</li>
+            <li id="AC">AC</li>
+            <li id=":">:</li>
+            <li id="*">*</li>
+            <li id="+">+</li>
+            <li id="-">-</li>
           </ul>
         </div>
       </div>
     </div>
   </body>
+  <script src="index.js"></script>
 </html>
