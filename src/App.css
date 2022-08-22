@@ -59,4 +59,13 @@ html {
   .App {
     flex-direction: column;
   }
+
+  html {
+    font-size: 25px;
+    height: 85vh;
+  }
+
+  .me-108 {
+    font-size: 32px;
+  }
 }
