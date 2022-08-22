@@ -4,11 +4,10 @@
 }
 
 .calculator-page-container {
+  /* height: 100vh; */
+
   background-color: rgb(94, 94, 155);
   color: rgb(186, 186, 246);
-
-  height: 100vh;
-  width: 100vw;
 
   display: flex;
   justify-content: center;
@@ -19,6 +18,7 @@
 .calculator {
   display: flex;
   width: 500px;
+  max-width: 500px;
   flex-direction: column;
 }
 
@@ -98,7 +98,7 @@
   background-color: rgb(225, 240, 252);
 }
 
-@media (min-width: 400px) {
+@media (max-width: 600px) {
   .calculator {
     width: 100%;
   }
